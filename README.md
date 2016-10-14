@@ -1,5 +1,5 @@
 <h2>Display WP posts in a pinterest like masonry blocks</h2>
-<h3>This guide/code could be used easily to display posts in a reponsive masonry mannor<h3>
+<p>This guide/code could be used easily to display posts in a reponsive masonry mannor<p>
 <ul>
 <li>Pros: CSS Only no JS needed, responsive on most devices, and very easy to implement</li>
 
