@@ -6,8 +6,8 @@
 </ul>
 <h2>Files:</h2>
 <ul>
-static.html        for html use
-<li><a href="http://codepen.io/irottweiler/pen/mAjXZy">Static Html Demo</a> </li>
+<li>static.html for html use
+<a href="http://codepen.io/irottweiler/pen/mAjXZy">Static Html Demo</a> </li>
 
 <li>dynamic.php        for PHP wordpress posts</li>
 </ul>
