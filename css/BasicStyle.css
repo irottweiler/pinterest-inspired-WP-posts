@@ -1,0 +1,134 @@
+body{
+        font-family: sans-serif;
+        background: #f4f4f4;
+        
+    }
+    .intro{
+        text-align: center;
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+    }
+    .itemsContainer{
+    column-count: 4;/* number of columns, 4 in this case */
+    column-gap: 20px;/* the gap between blocks */
+    column-fill: balance;/* how columns are filled */
+    -webkit-column-count: 4; /* for Chrome and Safari */
+    -webkit-column-gap: 20px;
+    -webkit-column-fill: balance;
+    -moz-column-count: 4;/* -moz for Firefox */
+    -moz-column-gap: 20px;
+    -moz-column-fill: balance;
+    width: 100%;
+        
+    }    
+    
+    .item{
+        margin-bottom: 20px; /* bottom margin for each row/item */
+        text-align: center;
+        transition: background-color 0.5s ease;/* transition effects */
+        -moz-transition: background-color 0.5s ease;
+        -webkit-transition: background-color 0.5s ease;
+        border: 1px solid #e8e8e8;
+        border-radius: 5px;
+        display:inline-block; /* keep blocks separated and avoid cutting off the blocks*/
+        height:auto;
+    }
+    .item:hover{
+        
+        background:white;/* Reducing opacity when hovering on item */
+    }
+   .item:hover > .postLink .img .topLinks {
+    transition: opacity 0.5s;/* transition effects */
+    opacity: 0.5;
+    }
+    
+    .item:hover > .postLink .img .topLinks:hover {
+   
+    opacity: 1;
+    }
+    .postLink .caption a {opacity: 0;}
+    .item:hover > .postLink .caption .author {
+   margin-top: 0px;
+    opacity: 1;
+    }
+        .item:hover > .postLink .caption p {
+   margin-top: -20px;
+    opacity: 0;
+    }
+    .postLink .caption .author{opacity: 0;margin-top: -20px;color:dimgray;}
+    .postLink{
+        text-decoration: none;
+    }
+    .caption{
+        
+        margin-top: 20px;
+        
+    }
+    .caption p{
+        color:black;
+        margin-top: 0px;
+    }
+    img{
+       
+        width:100%;
+        
+    }
+    .img{ position: relative;}
+    .topLinks{
+        width: 100%;
+        position: absolute;
+        opacity: 0;
+
+    }
+    .topLinksBox:hover > .fa{color:dimgrey;}
+    .topLinksBox{
+        padding: 15px;
+        background: white;
+        border-radius: 5px;
+        color: black;
+        font-size: 30px;
+        display:inline-block;
+    }
+  /* Displaying only 2 columns for smaller devices*/
+    @media only screen and ( max-width: 480px) {
+         .itemsContainer{
+    column-count: 2;/* number of columns, 2 in this case */
+    column-gap: 10px;/* the gap between blocks */
+    column-fill: balance;/* how columns are filled */
+    -webkit-column-count: 2; /* for Chrome and Safari */
+    -webkit-column-gap: 10px;
+    -webkit-column-fill: balance;
+    -moz-column-count: 2;/* -moz for Firefox */
+    -moz-column-gap: 10px;
+    -moz-column-fill: balance;
+    width: 100%;
+        
+    }    
+        .topLinksBox{
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        display:inline-block;
+    }
+    }
+    /* Displaying only 3 columns for medium devices*/
+    @media only screen and ( min-width: 480px) and ( max-width: 980px){
+        
+           .itemsContainer{
+    column-count: 3;/* number of columns, 3 in this case */
+    column-gap: 15px;/* the gap between blocks */
+    column-fill: balance;/* how columns are filled */
+    -webkit-column-count: 3; /* for Chrome and Safari */
+    -webkit-column-gap: 15px;
+    -webkit-column-fill: balance;
+    -moz-column-count: 3;/* -moz for Firefox */
+    -moz-column-gap: 15px;
+    -moz-column-fill: balance;
+    width: 100%;
+        
+    }    
+        
+        
+    }
