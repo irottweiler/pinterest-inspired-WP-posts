@@ -4,10 +4,10 @@
 
 <li>Cons: Not compatible with IE</li>
 </ul>
-Files:
-
+<h2>Files:</h2>
+<ul>
 static.html        for html use
-<a href="http://codepen.io/irottweiler/pen/mAjXZy">Static Html Demo</a> 
+<li><a href="http://codepen.io/irottweiler/pen/mAjXZy">Static Html Demo</a> </li>
 
-dynamic.php        for PHP wordpress posts
-
+<li>dynamic.php        for PHP wordpress posts</li>
+</ul>
