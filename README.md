@@ -7,6 +7,7 @@ Cons: Not compatible with IE
 Files:
 
 static.html        for html use
+<a href="http://codepen.io/irottweiler/pen/mAjXZy">Static Html Demo</a> 
 
 dynamic.php        for PHP wordpress posts
 
