@@ -1,4 +1,4 @@
-Display WP posts in a pinterest like masonry blocks
+<h2>Display WP posts in a pinterest like masonry blocks</h2>
 
 Pros: CSS Only no JS needed, responsive on most devices, and very easy to implement
 
