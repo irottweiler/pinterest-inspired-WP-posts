@@ -4,3 +4,9 @@ Pros: CSS Only no JS needed, responsive on most devices, and very easy to implem
 
 Cons: Not compatible with IE
 
+Files:
+
+static.html        for html use
+
+dynamic.php        for PHP wordpress posts
+
